@@ -1,0 +1,285 @@
+
+body{
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.principal{
+    width: 100%;
+    height: 90vh;
+    padding-top: 50px;
+    margin: 5px 0px;
+    background-image: url(iphone_pro.jpg);
+    background-size: cover;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    align-items: center;   
+}
+
+
+
+.text-2{
+    color: black;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: -1px;
+    margin-top: 30px;
+}
+
+.text-3{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+
+.p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+    
+}
+
+.a{
+    display: block;
+    color: #0583F2;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+
+.a:hover{
+    text-decoration: underline;
+}
+
+
+
+.second{
+    background-color: black;
+    width: 100%;
+    height: 90vh;
+    padding-top: 35px;
+    margin: 5px 0px;
+    background-image: url(ipad_pro.jpg);
+    background-size: cover;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.text-1{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: -2px;
+    margin-top: 30px;
+}
+
+.text-4{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+
+.terc{
+    width: 100%;
+    height: 90vh;
+    padding-top: 35px;
+    margin: 5px 0px;
+    background-image: url(imac_avail.jpg);
+    background-size: cover;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    align-items: center;  
+}
+
+.bloco-1{
+    width: 100%;
+    height: 70vh;
+    padding-top: 35px;
+    margin: 5px 0px;
+    background-image: url(imagem_coluna_1.jpg);
+    background-size: cover;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    align-items: center;  
+}
+
+.bloco-2{
+    width: 100%;
+    height: 70vh;
+    padding-top: 35px;
+    margin: 5px 0px;
+    background-image: url(imagem_coluna_2.jpg);
+    background-size: cover;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    align-items: center;  
+}
+
+.text-jun2{
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: -1px;
+    margin-top: 30px;
+    padding-top: 286px;
+}
+
+.text-jun{
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+
+.bloco-3{
+    width: 100%;
+    height: 70vh;
+    padding-top: 35px;
+    margin: 5px 0px;
+    background-image: url(imagem_coluna_3.jpg);
+    background-size: cover;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    align-items: center; 
+}
+
+.text-15{
+color: black;
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: -1px;
+    
+}
+
+.text-ios{
+color: black;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: -1px;
+    font-weight: normal;
+}
+
+
+.navbar{
+    background-color: #0d0d0ddc;
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    backdrop-filter: blur(20px);
+    top: 0;
+}
+
+.navbar-nav{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.navbar-nav:hover{
+    color: #bfbfbf1c;
+}
+
+.nav-item{
+    display: block;
+    padding: 5px 25px;
+    font-size: 11px;
+    opacity: 1;
+
+}
+
+.nav-link{
+    color: #F2F2F2;  
+   letter-spacing: 0.7px;
+   opacity: 0.7;
+}
+
+.nav-link:hover{
+    color:#bfbfbf ;
+}
+
+
+.bi-search{
+    color: #F2F2F2;
+}
+
+.bi-bag{
+    color:#F2F2F2 ;
+
+}
+
+.bloco-4{
+    width: 100%;
+    height: 70vh;
+    padding-top: 10px;
+    margin: 5px 0px;
+    background-image: url(imagem_coluna_2_atualizada.jpg);
+    background-size: cover;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.bloco-5{
+    width: 100%;
+    height: 70vh;
+    padding-top: 10px;
+    margin: 5px 0px;
+    background-image: url(imagem_coluna_5_atualizada.jpg);
+    background-size: cover;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.icon-text{
+    width: 40px;
+    
+}
+
+.bloco-6{
+    width: 100%;
+    height: 70vh;
+    padding-top: 10px;
+    margin: 5px 0px;
+    background-image: url(imagem_coluna_6_atualizada.jpg);
+    background-size: cover;
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    align-items: center;
+}
+
+.tv{
+    display: block;
+    color: #0583F2;
+    margin: 0px 10px;
+    text-decoration: none;
+    
+}
+
+.tv:hover{
+    text-decoration: underline;
+}
+
+.text-tv{
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: -2px;
+    font-weight: normal;
+    padding-top: 330px;
+}
+
+.rodape{
+    width: 100%;
+    height: 500px;
+    background-color: #bfbfbf70;
+}
