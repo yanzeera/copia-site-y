@@ -4,12 +4,37 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+@media screen and (min-width:1500px) {
+    .mobile-maca{
+        visibility: hidden;
+    }
+
+    .b-2{
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (max-width:700px) {
+    .b-3{
+        visibility: hidden;
+    }
+     .b-4{
+         visibility: hidden;
+     }
+
+  .navbar-nav{
+      background-color: black;   
+  }
+
+
+}
 
 .principal{
     width: 100%;
     height: 90vh;
     padding-top: 50px;
-    margin: 5px 0px;
+    margin: 10px 10px;
     background-image: url(iphone_pro.jpg);
     background-size: cover;
     background-position: center 100%;
@@ -61,7 +86,7 @@ body{
     width: 100%;
     height: 90vh;
     padding-top: 35px;
-    margin: 5px 0px;
+    margin: 10px 10px;
     background-image: url(ipad_pro.jpg);
     background-size: cover;
     background-position: center 100%;
@@ -89,7 +114,7 @@ body{
     width: 100%;
     height: 90vh;
     padding-top: 35px;
-    margin: 5px 0px;
+    margin: 10px 10px;
     background-image: url(imac_avail.jpg);
     background-size: cover;
     background-position: center 100%;
@@ -99,9 +124,9 @@ body{
 
 .bloco-1{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     padding-top: 35px;
-    margin: 5px 0px;
+    margin: 10px 10px;
     background-image: url(imagem_coluna_1.jpg);
     background-size: cover;
     background-position: center 100%;
@@ -111,9 +136,9 @@ body{
 
 .bloco-2{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     padding-top: 35px;
-    margin: 5px 0px;
+    margin: 10px 10px;
     background-image: url(imagem_coluna_2.jpg);
     background-size: cover;
     background-position: center 100%;
@@ -127,7 +152,7 @@ body{
     text-align: center;
     letter-spacing: -1px;
     margin-top: 30px;
-    padding-top: 286px;
+    padding-top: 390px;
 }
 
 .text-jun{
@@ -140,9 +165,9 @@ body{
 
 .bloco-3{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     padding-top: 35px;
-    margin: 5px 0px;
+    margin: 10px 10px;
     background-image: url(imagem_coluna_3.jpg);
     background-size: cover;
     background-position: center 100%;
@@ -171,7 +196,7 @@ color: black;
     background-color: #0d0d0ddc;
     position: fixed;
     width: 100%;
-    height: 40px;
+    height: 45px;
     backdrop-filter: blur(20px);
     top: 0;
 }
@@ -193,6 +218,7 @@ color: black;
     padding: 5px 25px;
     font-size: 11px;
     opacity: 1;
+    font-size: 14px;
 
 }
 
@@ -218,9 +244,9 @@ color: black;
 
 .bloco-4{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     padding-top: 10px;
-    margin: 5px 0px;
+    margin: 10px 10px;
     background-image: url(imagem_coluna_2_atualizada.jpg);
     background-size: cover;
     background-position: center 100%;
@@ -230,9 +256,9 @@ color: black;
 
 .bloco-5{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     padding-top: 10px;
-    margin: 5px 0px;
+    margin: 10px 10px;
     background-image: url(imagem_coluna_5_atualizada.jpg);
     background-size: cover;
     background-position: center 100%;
@@ -247,9 +273,9 @@ color: black;
 
 .bloco-6{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     padding-top: 10px;
-    margin: 5px 0px;
+    margin: 10px 10px;
     background-image: url(imagem_coluna_6_atualizada.jpg);
     background-size: cover;
     background-position: center 100%;
@@ -275,11 +301,31 @@ color: black;
     text-align: center;
     letter-spacing: -2px;
     font-weight: normal;
-    padding-top: 330px;
+    padding-top: 460px;
 }
 
 .rodape{
     width: 100%;
     height: 500px;
     background-color: #bfbfbf70;
+}
+
+.navbar-toggler{
+    background-image: url(igual.png);
+    background-size: 30px;
+    color: white;
+    height: 20px;
+}
+
+
+
+.mobile-maca{
+    height: 30px;
+    align-items: center;
+}
+
+
+
+.nav-bag{
+    height: 20px;
 }
